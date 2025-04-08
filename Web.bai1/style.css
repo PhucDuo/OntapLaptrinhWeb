@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color:rgb(0, 0, 0);
+  }
+  
+  header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0, 255, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .logo span {
+    background-color: #fdb913;
+    color: #000;
+    padding: 0 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  }
+  
+  .hero {
+    background: url('images/Naraka_ (5).jpg') center center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-blend-mode: darken;
+    background-color: rgba(105, 104, 104, 0.5);
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
